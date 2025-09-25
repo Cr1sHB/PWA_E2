@@ -3,10 +3,11 @@ self.addEventListener ( 'fetch',
         console.log(evento.request.url);
 
         if (/\.jpg$/.test(evento.request.url)) {
-            evento.respondWith ( fetch('Bocchi.jpg') );
+            evento.respondWith ( fetch('ado.jpg') );
         }
         else if (/\.png$/.test(evento.request.url)) {
-            evento.respondWith(fetch('ado.jpg'));
+            evento.respondWith(fetch('silson.png'));
         }
     }
+
 )
