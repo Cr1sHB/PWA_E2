@@ -6,8 +6,9 @@ self.addEventListener ( 'fetch',
             evento.respondWith ( fetch('ado.jpg') );
         }
         else if (/\.png$/.test(evento.request.url)) {
-            evento.respondWith(fetch('silson.png'));
+            evento.respondWith(fetch('isaac.png'));
         }
     }
 
 )
+
